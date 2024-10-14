@@ -132,9 +132,9 @@ sup {
 }
 
 .logo {
-  width: 127px;
-  left: 43px;
-  top: 28px
+  width: 79px;
+  left: 29px;
+  top: 18px;
 }
 
 .logo2 {
@@ -149,10 +149,10 @@ sup {
 }
 
 .copy1 {
-  font-size: 104px;
-  top: 168px;
-  left: 22px;
-  letter-spacing: -6px;
+  font-size: 78px;
+  top: 201px;
+  left: 9px;
+  letter-spacing: -5px;
   position: absolute;
   height: auto;
   width: 100%;
@@ -161,12 +161,12 @@ sup {
 .copy1>div {
   position: relative;
   overflow: hidden;
-  height: 112px;
-  margin-bottom: -26px;
+  height: 90px;
+  margin-bottom: -24px;
 }
 
 .copy1>div:nth-child(2) {
-  height: 105px;
+  height: 85px;
 }
 
 
@@ -175,35 +175,35 @@ sup {
 }
 
 #linetwo {
-  left: 16px;
-  letter-spacing: -3px;
+  left: 14px;
+  letter-spacing: -2.5px;
   position: absolute;
 }
 
 .copy2 {
-  font-size: 28px;
-  top: 368px;
-  left: 41px;
+  font-size: 21px;
+  top: 349px;
+  left: 26px;
   line-height: 1;
   width: 100%;
   height: auto;
-  letter-spacing: -1px;
+  letter-spacing: -0.85px;
 }
 
 .copy2>div {
   position: relative;
   width: auto;
-  height: 30px;
+  height: 25px;
   overflow: hidden;
 }
 
 .copy2 div:nth-child(2) {
   font-family: "GTU-Light";
-  top: 4px;
+  top: 0px;
   padding-top: 4px;
-  font-size: 21px;
-  letter-spacing: -0.5px;
-  height: 26px;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+  height: 22px;
 }
 
 .copy2 span {
@@ -212,22 +212,22 @@ sup {
 
 .copy3 {
   color: #000;
-  top: 37px;
+  top: 22px;
   left: 0;
-  font-size: 67px;
-  letter-spacing: -1px;
-  line-height: 68px;
+  font-size: 53px;
+  letter-spacing: -0.5px;
+  line-height: 49px;
   width: 100%;
   text-align: center;
 }
 
 .copy4 {
   font-family: "GTU-Light";
-  font-size: 22px;
-  top: 197px;
+  font-size: 18px;
+  top: 186px;
   left: 0;
-  letter-spacing: 0.3px;
-  line-height: 28px;
+  letter-spacing: -0.1px;
+  line-height: 23px;
   width: 100%;
   text-align: center;
 }
@@ -238,23 +238,23 @@ b {
 
 .legal {
   font-family: "GTU-Light";
-  font-size: 17px;
+  font-size: 12px;
   color: #fff;
-  bottom: 11px;
-  letter-spacing: 0.1px;
+  bottom: 12px;
+  letter-spacing: -0.25px;
   width: auto;
-  left: 39px;
+  left: 26px;
 }
 
 .cta {
   font-family: "GTU-Black";
-  font-size: 21px;
-  bottom: 194px;
+  font-size: 17px;
+  bottom: 132px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 160px;
-  height: 52px;
+  width: 130px;
+  height: 42px;
   border-radius: 50px;
   border: #000 solid 2px;
   text-align: center;
@@ -273,9 +273,9 @@ b {
 
 /* horse */
 .horse_static {
-  bottom: 102px;
-  right: 336px;
-  width: 60px;
+  bottom: 68px;
+  right: 139px;
+  width: 40px;
 }
 
 .horse_gif {
@@ -285,7 +285,7 @@ b {
 }
 
 .logo_text {
-  bottom: 70px;
-  right: 305px;
-  width: 126px;
+  bottom: 48px;
+  right: 119px;
+  width: 80px;
 }
