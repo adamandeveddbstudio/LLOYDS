@@ -25,9 +25,9 @@ function animate() {
 
   tl.set(['#lineone, #linetwo, #linethree'], { y: '100%' });
 
-  tl.set(['.copy4 span'], { x: "-1240px", ease: Power2.easeOut })
+  tl.set(['.copy4 span'], { x: "-738px", ease: Power2.easeOut })
   tl.set(['.copy2 span',], { y: "100%", ease: Power2.easeOut })
-  tl.set(['#horse,#logo_text,#copy3'], { x: "-1240px", ease: Power2.easeOut })
+  tl.set(['#horse,#logo_text,#copy3'], { x: "-738px", ease: Power2.easeOut })
 
   tl.addLabel('frame1', 0)
     .staggerTo(['.copy1 span',], 1, { y: "0", autoAlpha: 1, ease: 'back.out', yoyo: true }, 0.5, 'frame2+=0')
