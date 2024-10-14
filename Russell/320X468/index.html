@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <meta name="ad.size" content="width=320,height=468" />
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+  <script type="text/javascript" src="main.js"></script>
+
+  <script language="javascript">
+    var clickTag = "https://www.lloydsbank.com/";
+  </script>
+
+  <title></title>
+</head>
+
+<body onload="init();">
+  <div id="main_container">
+    <!--start main_container-->
+    <div id="main_content">
+      <!--start main_content-->
+      <!-- <img src="images/frame2.jpg" style="height: 468px; width: 320px; position: absolute; top: 0px; left: 0px; z-index: 11; opacity: .5;" alt=""> -->
+
+      <img src="images/background.jpg" id="cover" class="canvasImage" alt="">
+
+      <img src="images/logo.svg" id="logo" class="logo" alt="">
+
+      <div id="copy1" class="copy copy1">
+        <div>
+          <span id="lineone" class="hidden">Yes,</span><br>
+        </div>
+        <div>
+          <span id="linetwo" class="hidden">I invest</span>
+        </div>
+      </div>
+
+      <div id="copy2" class="copy copy2 hidden">
+        <div>
+          <span class="hidden">I take it more seriously now</span>
+        </div>
+        <div>
+          <span class="hidden">Russell, age 55</span>
+        </div>
+      </div>
+
+      <div id="green"></div>
+      <div id="copy3" class="copy copy3 hidden">Ready for your <br> next move?</div>
+
+      <div id="copy4" class="copy4 hidden">
+        <span>Get flat-rate account fees no matter the size of<br>
+          your investments and manage them all in the app.</span>
+      </div>
+
+      <img src="images/horse_static.svg" class="horse_static hidden" id="horse" alt="">
+      <img src="images/logo_text.svg" id="logo_text" class="logo_text hidden" alt="">
+      <!-- <img src="images/horse_gif.gif" class="horse_gif hidden" id="horse_gif" alt=""> -->
+
+      <div id="legal" class="legal">Capital at risk. Account fees and charges apply.</div>
+
+      <div id="cta" class="cta hidden">Invest now</div>
+      <!--end main_content-->
+    </div>
+  </div>
+  <div id="default_exit" class="btn"></div>
+  <!--end main_container-->
+  <script>
+    var clickArea = document.getElementById("default_exit");
+    clickArea.onclick = function () {
+      window.open(clickTag);
+    };
+  </script>
+</body>
+
+</html>
