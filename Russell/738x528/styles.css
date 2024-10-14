@@ -175,7 +175,7 @@ sup {
 }
 
 #linetwo {
-  left: 16px;
+  left: 16.5px;
   letter-spacing: -3px;
   position: absolute;
 }
@@ -193,13 +193,13 @@ sup {
 .copy2>div {
   position: relative;
   width: auto;
-  height: 30px;
+  height: 31px;
   overflow: hidden;
 }
 
 .copy2 div:nth-child(2) {
   font-family: "GTU-Light";
-  top: 4px;
+  top: 3px;
   padding-top: 4px;
   font-size: 21px;
   letter-spacing: -0.5px;
@@ -247,7 +247,7 @@ b {
 }
 
 .cta {
-  font-family: "GTU-Black";
+  font-family: "GTU-Bold";
   font-size: 21px;
   bottom: 194px;
   position: absolute;

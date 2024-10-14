@@ -173,7 +173,7 @@ sup {
 }
 
 #linetwo {
-  left: 20px;
+  left: 20.5px;
   letter-spacing: -4px;
   position: absolute;
 }
@@ -242,7 +242,7 @@ b {
 }
 
 .cta {
-  font-family: "GTU-Black";
+  font-family: "GTU-Bold";
   color: #000;
   font-size: 25px;
   bottom: 153px;
