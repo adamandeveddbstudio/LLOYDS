@@ -21,17 +21,14 @@ function init() {
 
 function animate() {
   tl.set(['#main_content'], { autoAlpha: 1, rotation: 0.1, force3D: true });
-  tl.set(['#copy1, #copy2'], { rotation: 0.1, force3D: true });
+  // tl.set(['#copy1, #copy2'], { rotation: 0.1, force3D: true });
 
-  tl.set(['#lineone, #linetwo, #linethree'], { y: '100%' });
-
-  tl.set(['.copy4 span'], { x: "-1240px", ease: Power2.easeOut })
-  tl.set(['.copy2 span',], { y: "100%", ease: Power2.easeOut })
-  tl.set(['#horse,#logo_text,#copy3'], { x: "-1240px", ease: Power2.easeOut })
+  tl.set(['.copy1 span','.copy2 span',], { y: "100%"})
+  tl.set(['#horse,#logo_text,#copy3','.copy4 span'], { x: "-1240px"})
 
   tl.addLabel('frame1', 0)
-    .staggerTo(['.copy1 span',], 1, { y: "0", autoAlpha: 1, ease: 'back.out', yoyo: true }, 0.5, 'frame2+=0')
-    .to(['#copy2'], 0, { autoAlpha: 1, ease: 'none', yoyo: true }, 'frame2+=2.5')
+    .staggerTo(['.copy1 span',], 1, { y: "0", autoAlpha: 1, ease: 'back.out', yoyo: true }, 0.25, 'frame2+=0')
+    .to(['#copy2'], 0, { autoAlpha: 1, ease: 'none', yoyo: true }, 'frame2+=2')
     .staggerTo(['.copy2 span',], 1, { y: "0", autoAlpha: 1, ease: 'back.out', yoyo: true }, 0.25, '<')
 
 
