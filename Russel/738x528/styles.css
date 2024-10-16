@@ -206,8 +206,12 @@ sup {
   height: 26px;
 }
 
-.copy2 span {
+.copy2 span,
+.copy3 span,
+.copy4 span {
   position: absolute;
+  width: 100%;
+  left: 0;
 }
 
 .copy3 {

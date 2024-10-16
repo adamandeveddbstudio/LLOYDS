@@ -195,8 +195,6 @@ sup {
   overflow: hidden;
 }
 
-.copy2 div:nth-child(1) {}
-
 .copy2 div:nth-child(2) {
   font-family: "GTU-Light";
   top: 7px;
@@ -204,8 +202,11 @@ sup {
   height: 30px;
 }
 
-.copy2 span {
+.copy2 span,
+.copy3 span,
+.copy4 span {
   position: absolute;
+  width: 100%;
 }
 
 .copy3 {
@@ -215,7 +216,7 @@ sup {
   font-size: 121px;
   letter-spacing: -2.5px;
   line-height: 113px;
-  width: auto;
+  width: 100%;
 }
 
 .copy4 {
@@ -225,7 +226,7 @@ sup {
   left: 54px;
   letter-spacing: 0.3px;
   line-height: 30px;
-  width: auto;
+  width: 100%;
 }
 
 b {

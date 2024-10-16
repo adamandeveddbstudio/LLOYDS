@@ -23,8 +23,8 @@ function animate() {
   tl.set(['#main_content'], { autoAlpha: 1, rotation: 0.1, force3D: true });
   // tl.set(['#copy1, #copy2'], { rotation: 0.1, force3D: true });
 
-  tl.set(['.copy1 span','.copy2 span',], { y: "100%"})
-  tl.set(['#horse,#logo_text,#copy3','.copy4 span'], { x: "-1240px"})
+  tl.set(['.copy1 span', '.copy2 span',], { y: "100%" })
+  tl.set(['#horse,#logo_text', '.copy3 span', '.copy4 span'], { x: "-1240px" })
 
   tl.addLabel('frame1', 0)
     .staggerTo(['.copy1 span',], 1, { y: "0", autoAlpha: 1, ease: 'back.out', yoyo: true }, 0.25, 'frame1+=0')
@@ -38,13 +38,11 @@ function animate() {
     .to(['#legal'], 0.5, { color: '#000', ease: "power1.inOut", }, '<')
     .to(['#horse'], 1, { x: 0, autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=.6')
     .to(['#logo_text'], 1, { x: 0, autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=.7')
-    .to(['#copy3'], 1, { x: 0, autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=.7')
-    .to(['#copy4'], { autoAlpha: 1, ease: "power1.inOut", }, 'frame2+=1.7')
+    .to(['#copy3'], { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=1')
+    .staggerTo(['.copy3 span',], 1, { x: "0", ease: Power2.easeOut, }, 0.05, '<')
+    .to(['#copy4'], { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=1.7')
     .staggerTo(['.copy4 span',], 1, { x: "0", ease: Power2.easeOut, }, 0.05, '<')
-
-
     .to(['#cta'], 0.5, { autoAlpha: 1, ease: "power1.inOut", }, 'frame2+=3.2')
-
 
 }
 
