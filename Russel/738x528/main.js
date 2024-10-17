@@ -35,7 +35,7 @@ function animate() {
   tl.addLabel('frame2', 5)
     .to(['#copy1', '#copy2'], 0.5, { autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame2')
     .to(['#green'], 0.5, { x: 0, autoAlpha: 1, ease: "power1.inOut", }, 'frame2+=.5')
-    .to(['#legal'], 0.5, { color: '#000', eft: '182px', ease: "power1.inOut", }, '<')
+    .to(['#legal'], 0.5, { color: '#000', left: '182px', ease: "power1.inOut", }, '<')
     .to(['#horse'], 1, { x: 0, autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=.6')
     .to(['#logo_text'], 1, { x: 0, autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=.7')
     .to(['#copy3'], { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=1')
